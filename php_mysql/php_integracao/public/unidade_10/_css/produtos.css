@@ -1,0 +1,32 @@
+/* estilos da listagem */
+main div#listagem_produtos {
+    width:860px;
+    margin:0 auto;
+}
+
+main div#listagem_produtos ul {
+    float:left;
+    margin:5px 10px 5px;
+    padding:0;
+    width:400px;
+    height: 80px;
+}
+
+main div#listagem_produtos li {
+    font-family: sans-serif;
+    font-size: 12px;
+    list-style: none;
+}
+
+main div#listagem_produtos li.imagem {
+    float:left;
+    margin-right: 10px;
+}
+
+main div#listagem_produtos li h3 {
+    margin:0;   
+}
+
+main div#listagem_produtos li img {
+    border:1px solid #ddd;   
+}

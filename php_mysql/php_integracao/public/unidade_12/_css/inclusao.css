@@ -1,0 +1,93 @@
+/* estilos da pesquisa */
+main div#janela_formulario {
+    width:860px;
+    margin:50px auto 30px;
+}
+
+main div#janela_formulario form {
+    width:470px;
+    margin:10px auto;
+    
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: #9A9668;     
+}
+
+main div#janela_formulario form h2  {
+    font-family: sans-serif;
+    color:#9A9668;
+}
+
+main div#janela_formulario form p {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    background: #F00;
+    color: #FFF;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+main div#janela_formulario form label, 
+main div#janela_formulario form legend {
+    display: block;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 3px;
+    color: #9A9668;    
+}
+
+main div#janela_formulario form input[type="text"] {
+    width:350px;
+    padding:10px;
+    border:1px solid #CDC99B;
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+main div#janela_formulario form input[type="radio"] {
+    padding:10px;
+    border:1px solid #CDC99B;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 25px;
+}
+
+main div#janela_formulario form input[type="file"] {
+    border-radius: 5px;
+    outline: none;
+    margin-bottom: 25px;
+}
+
+main div#janela_formulario form select {
+    display: block;
+    margin-bottom: 25px;
+}
+
+main div#janela_formulario form input[type="submit"] {
+    display: block;
+    padding:10px 20px;
+    margin-top:15px;
+    color: #FFF;
+    border:0;
+    border-radius: 5px;
+    background-color: #C5996B;
+    outline: none;
+    cursor: pointer;
+}
+
+span.resposta {
+    float:right;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color:#000;
+}
+/* fim do estilo da pesquisa */
